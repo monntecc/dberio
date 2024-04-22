@@ -1,0 +1,11 @@
+<h3>Welcome to dberio!</h3>
+
+<div>Our customers:</div>
+<ul id="users">
+    {{#each users}}
+        <li>
+            {{this.username}}
+            <a href="/details/{{this.id}}">Details</a>
+        </li>
+    {{/each}}
+</ul>

@@ -1,0 +1,11 @@
+<a href="/">Back to home</a> <br> <br>
+{{#if res.message}}
+    <div id="message">{{res.message}}</div>
+{{/if}}
+
+{{#if res.id}}
+    <div id="username">Username: {{res.username}}</div>
+    <div id="email">Email:{{res.email}}</div>
+    <div id="password">Password: {{res.password}}</div>
+    <div id="Created at">Created at: {{res.created_at}}</div>
+{{/if}}

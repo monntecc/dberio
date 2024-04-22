@@ -1,0 +1,17 @@
+{
+  "name": "dberio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "serve": "nodemon index.js"
+  },
+  "author": "Vladyslav Potapenko",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "fs": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.0"
+  }
+}
